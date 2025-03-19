@@ -17,7 +17,14 @@ DataSource:
 Agency:
   - Example agency
 Resources:
-  - EndPoint: https://tiles.maps.eox.at/wms?
-    Name: WMS
-    LayerId: terrain-light_3857
-    MediaType: image/png
+  - EndPoint: https://openveda.cloud/api/stac/
+    Type: tiles
+    Name: VEDA
+    CollectionId: landsat-c2l2-sr-antarctic-glaciers-pine-island
+    Assets: 
+      - red
+      - green
+      - blue
+    # ColorFormula: gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55
+    NoData: 0
+    # OverwriteBBox: [-106, -76, -97, -73]
