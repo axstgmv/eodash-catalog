@@ -25,6 +25,6 @@ Resources:
       - red
       - green
       - blue
-    # ColorFormula: gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55
+    ColorFormula: gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55
     NoData: 0
-    # OverwriteBBox: [-106, -76, -97, -73]
+    OverwriteBBox: [-106, -76, -97, -73]
