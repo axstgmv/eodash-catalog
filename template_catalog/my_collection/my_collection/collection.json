@@ -11,21 +11,311 @@
       "title": "Template Catalog"
     },
     {
-      "rel": "wms",
-      "href": "https://tiles.maps.eox.at/wms?",
-      "type": "image/png",
-      "title": "my_collection",
-      "wms:layers": [
-        "terrain-light_3857"
-      ],
-      "role": [
-        "data"
-      ]
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2023/LC08_L2SR_001113_20230125_20230208_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20230125_20230208_02_T2_SR",
+      "datetime": "2023-01-25T14:52:12Z"
     },
     {
       "rel": "item",
-      "href": "./my_collection/1970/fda3cfed-e4bd-4b35-bd27-64bd3667af1c.json",
-      "type": "application/geo+json"
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2022/LC08_L2SR_001113_20221224_20230103_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20221224_20230103_02_T2_SR",
+      "datetime": "2022-12-24T14:52:13Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2022/LC08_L2SR_001113_20221021_20221101_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20221021_20221101_02_T2_SR",
+      "datetime": "2022-10-21T14:52:25Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2022/LC08_L2SR_001113_20220122_20220128_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20220122_20220128_02_T2_SR",
+      "datetime": "2022-01-22T14:52:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2021/LC08_L2SR_001113_20211119_20211125_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20211119_20211125_02_T2_SR",
+      "datetime": "2021-11-19T14:52:10Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2021/LC08_L2SR_001113_20211018_20211026_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20211018_20211026_02_T2_SR",
+      "datetime": "2021-10-18T14:52:16Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2021/LC08_L2SR_001113_20210119_20210307_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20210119_20210307_02_T2_SR",
+      "datetime": "2021-01-19T14:51:58Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2020/LC08_L2SR_001113_20201116_20210315_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20201116_20210315_02_T2_SR",
+      "datetime": "2020-11-16T14:52:08Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2020/LC08_L2SR_001113_20201015_20201105_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20201015_20201105_02_T2_SR",
+      "datetime": "2020-10-15T14:52:10Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2020/LC08_L2SR_001113_20200202_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20200202_20201016_02_T2_SR",
+      "datetime": "2020-02-02T14:51:54Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2019/LC08_L2SR_001113_20191029_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20191029_20201016_02_T2_SR",
+      "datetime": "2019-10-29T14:52:14Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2019/LC08_L2SR_001113_20190130_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20190130_20201016_02_T2_SR",
+      "datetime": "2019-01-30T14:51:36Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2019/LC08_L2SR_001113_20190114_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20190114_20201016_02_T2_SR",
+      "datetime": "2019-01-14T14:51:40Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2018/LC08_L2SR_001113_20181213_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20181213_20201016_02_T2_SR",
+      "datetime": "2018-12-13T14:51:42Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2018/LC08_L2SR_001113_20181111_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20181111_20201016_02_T2_SR",
+      "datetime": "2018-11-11T14:51:46Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2018/LC08_L2SR_001113_20180228_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20180228_20201016_02_T2_SR",
+      "datetime": "2018-02-28T14:51:32Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2018/LC08_L2SR_001113_20180127_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20180127_20201016_02_T2_SR",
+      "datetime": "2018-01-27T14:51:46Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2017/LC08_L2SR_001113_20171226_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20171226_20201016_02_T2_SR",
+      "datetime": "2017-12-26T14:52:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2017/LC08_L2SR_001113_20171210_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20171210_20201016_02_T2_SR",
+      "datetime": "2017-12-10T14:51:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2017/LC08_L2SR_001113_20171023_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20171023_20201016_02_T2_SR",
+      "datetime": "2017-10-23T14:52:08Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2017/LC08_L2SR_001113_20170124_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20170124_20201016_02_T2_SR",
+      "datetime": "2017-01-24T14:51:56Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2017/LC08_L2SR_001113_20170108_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20170108_20201016_02_T2_SR",
+      "datetime": "2017-01-08T14:52:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2016/LC08_L2SR_001113_20161105_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20161105_20201016_02_T2_SR",
+      "datetime": "2016-11-05T14:52:10Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2016/LC08_L2SR_001113_20160106_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20160106_20201016_02_T2_SR",
+      "datetime": "2016-01-06T14:51:54Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2015/LC08_L2SR_001113_20151103_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20151103_20201016_02_T2_SR",
+      "datetime": "2015-11-03T14:51:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2015/LC08_L2SR_001113_20151018_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20151018_20201016_02_T2_SR",
+      "datetime": "2015-10-18T14:51:52Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2014/LC08_L2SR_001113_20141202_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20141202_20201016_02_T2_SR",
+      "datetime": "2014-12-02T14:52:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2014/LC08_L2SR_001113_20140217_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20140217_20201016_02_T2_SR",
+      "datetime": "2014-02-17T14:52:39Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2013/LC08_L2SR_001113_20131012_20201016_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LC08_L2SR_001113_20131012_20201016_02_T2_SR",
+      "datetime": "2013-10-12T14:53:42Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2012/LE07_L2SR_001113_20121118_20200908_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20121118_20200908_02_T2_SR",
+      "datetime": "2012-11-18T14:47:48Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2012/LE07_L2SR_001113_20121102_20200908_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20121102_20200908_02_T2_SR",
+      "datetime": "2012-11-02T14:47:40Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2012/LE07_L2SR_001113_20120204_20200909_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20120204_20200909_02_T2_SR",
+      "datetime": "2012-02-04T14:45:55Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2011/LE07_L2SR_001113_20110201_20200910_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20110201_20200910_02_T2_SR",
+      "datetime": "2011-02-01T14:45:13Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2010/LE07_L2SR_001113_20101215_20200910_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20101215_20200910_02_T2_SR",
+      "datetime": "2010-12-15T14:44:51Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2010/LE07_L2SR_001113_20100129_20200911_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20100129_20200911_02_T2_SR",
+      "datetime": "2010-01-29T14:43:33Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2009/LE07_L2SR_001113_20091212_20200911_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20091212_20200911_02_T2_SR",
+      "datetime": "2009-12-12T14:42:46Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2009/LE07_L2SR_001113_20091110_20200911_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20091110_20200911_02_T2_SR",
+      "datetime": "2009-11-10T14:42:23Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2007/LE07_L2SR_001113_20071207_20200913_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20071207_20200913_02_T2_SR",
+      "datetime": "2007-12-07T14:42:06Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2007/LE07_L2SR_001113_20071105_20200913_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20071105_20200913_02_T2_SR",
+      "datetime": "2007-11-05T14:41:52Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2007/LE07_L2SR_001113_20070105_20200913_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20070105_20200913_02_T2_SR",
+      "datetime": "2007-01-05T14:42:03Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2005/LE07_L2SR_001113_20050216_20200914_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20050216_20200914_02_T2_SR",
+      "datetime": "2005-02-16T14:41:27Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2004/LE07_L2SR_001113_20040214_20200915_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20040214_20200915_02_T2_SR",
+      "datetime": "2004-02-14T14:40:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-antarctic-glaciers-pine-island/2001/LE07_L2SR_001113_20010104_20200917_02_T2_SR.json",
+      "type": "application/geo+json",
+      "item": "LE07_L2SR_001113_20010104_20200917_02_T2_SR",
+      "datetime": "2001-01-04T14:42:14Z"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-pine-island/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&no_data=0",
+      "type": "image/png",
+      "title": "my_collection"
     },
     {
       "rel": "parent",
@@ -53,24 +343,24 @@
   "insituSources": [
     "Other insitu data"
   ],
-  "endpointtype": "WMS",
+  "endpointtype": "VEDA_tiles",
   "title": "My collection",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -106.16789353071125,
+          -75.90445792386325,
+          -96.92800405298678,
+          -73.49948530332446
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-03-19T12:37:00.220075Z",
-          null
+          "2001-01-04T14:42:14.750591Z",
+          "2023-01-25T14:52:12.364151Z"
         ]
       ]
     }
