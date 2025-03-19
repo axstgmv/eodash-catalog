@@ -4,8 +4,11 @@ EodashIdentifier: EX1
 Description: This can be **markdown** or a reference to a markdown file
 Themes:
   - example
+  - another theme
+  - theme 3
 Tags:
   - example tag
+  - another tag
 DataSource:
   Spaceborne:
     Satellite:
