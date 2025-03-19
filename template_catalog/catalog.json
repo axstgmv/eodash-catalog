@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./example_collection/collection.json",
+      "href": "./my_collection/collection.json",
       "type": "application/json",
-      "title": "Example Collection",
+      "title": "My collection",
       "code": "EX1",
-      "id": "example_collection",
+      "id": "my_collection",
       "themes": [
         "example"
       ],

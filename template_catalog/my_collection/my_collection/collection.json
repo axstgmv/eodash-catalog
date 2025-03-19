@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "example_collection",
+  "id": "my_collection",
   "stac_version": "1.1.0",
   "description": "This can be **markdown** or a reference to a markdown file",
   "links": [
@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://tiles.maps.eox.at/wms?",
       "type": "image/png",
-      "title": "example_collection",
+      "title": "my_collection",
       "wms:layers": [
         "terrain-light_3857"
       ],
@@ -24,14 +24,14 @@
     },
     {
       "rel": "item",
-      "href": "./example_collection/1970/b2e8819d-3a86-4b1d-a2fb-dc29287e2153.json",
+      "href": "./my_collection/1970/ad3616bf-d76a-404d-bc42-d0ee379bd258.json",
       "type": "application/geo+json"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Example Collection"
+      "title": "My collection"
     }
   ],
   "themes": [
@@ -54,7 +54,7 @@
     "Other insitu data"
   ],
   "endpointtype": "WMS",
-  "title": "Example Collection",
+  "title": "My collection",
   "extent": {
     "spatial": {
       "bbox": [
@@ -69,7 +69,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-03-18T16:06:22.982775Z",
+          "2025-03-19T12:32:46.134795Z",
           null
         ]
       ]
