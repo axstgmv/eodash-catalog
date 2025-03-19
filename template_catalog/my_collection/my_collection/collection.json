@@ -325,10 +325,13 @@
     }
   ],
   "themes": [
-    "example"
+    "example",
+    "another theme",
+    "theme 3"
   ],
   "tags": [
-    "example tag"
+    "example tag",
+    "another tag"
   ],
   "agency": [
     "Example agency"

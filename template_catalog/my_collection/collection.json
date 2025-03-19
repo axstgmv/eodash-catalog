@@ -19,10 +19,13 @@
       "code": "EX1",
       "id": "my_collection",
       "themes": [
-        "example"
+        "example",
+        "another theme",
+        "theme 3"
       ],
       "tags": [
-        "example tag"
+        "example tag",
+        "another tag"
       ],
       "agency": [
         "Example agency"
@@ -67,10 +70,13 @@
     }
   ],
   "themes": [
-    "example"
+    "example",
+    "another theme",
+    "theme 3"
   ],
   "tags": [
-    "example tag"
+    "example tag",
+    "another tag"
   ],
   "agency": [
     "Example agency"
@@ -118,7 +124,9 @@
       "EX1"
     ],
     "themes": [
-      "example"
+      "example",
+      "theme 3",
+      "another theme"
     ],
     "satellite": [
       "Satellitename"

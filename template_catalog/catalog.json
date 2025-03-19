@@ -18,7 +18,9 @@
       "code": "EX1",
       "id": "my_collection",
       "themes": [
-        "example"
+        "example",
+        "another theme",
+        "theme 3"
       ],
       "subcode": "EX1",
       "satellite": [
@@ -28,7 +30,8 @@
         "Sensorname"
       ],
       "tags": [
-        "example tag"
+        "example tag",
+        "another tag"
       ],
       "agency": [
         "Example agency"
@@ -39,7 +42,7 @@
     },
     {
       "rel": "self",
-      "href": "https://organization.github.io/repository/repository/catalog.json",
+      "href": "https://axstgmv.github.io/eodash-catalog/template_catalog/catalog.json",
       "type": "application/json"
     }
   ],
