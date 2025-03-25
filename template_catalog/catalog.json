@@ -42,6 +42,36 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./example_collection/collection.json",
+      "type": "application/json",
+      "title": "Example collection",
+      "code": "EX2",
+      "id": "example_collection",
+      "themes": [
+        "features",
+        "monthly-diff"
+      ],
+      "subcode": "EX2",
+      "satellite": [
+        "Satellitename"
+      ],
+      "sensor": [
+        "Sensorname"
+      ],
+      "tags": [
+        "vector",
+        "feature",
+        "no2"
+      ],
+      "agency": [
+        "Example agency"
+      ],
+      "insituSources": [
+        "Other insitu data"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://axstgmv.github.io/eodash-catalog/template_catalog/catalog.json",
       "type": "application/json"
