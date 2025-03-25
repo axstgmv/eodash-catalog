@@ -63,7 +63,7 @@
     },
     {
       "rel": "xyz",
-      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=greens",
+      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=nlcd_2008_cog_v2&resampling_method=nearest&bidx=1&colormap_name=nlcd",
       "type": "image/png",
       "title": "example_collection"
     },

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "example_collection",
   "stac_version": "1.1.0",
-  "description": "./exp_desc",
+  "description": "./exp_desc.md",
   "links": [
     {
       "rel": "root",
@@ -14,59 +14,68 @@
       "rel": "item",
       "href": "./nlcd-annual-conus/2021/nlcd_2021_cog_v2.json",
       "type": "application/geo+json",
+      "item": "nlcd_2021_cog_v2",
       "datetime": "2021-01-01T00:00:00Z"
     },
     {
       "rel": "item",
       "href": "./nlcd-annual-conus/2019/nlcd_2019_cog_v2.json",
       "type": "application/geo+json",
+      "item": "nlcd_2019_cog_v2",
       "datetime": "2019-01-01T00:00:00Z"
     },
     {
       "rel": "item",
       "href": "./nlcd-annual-conus/2016/nlcd_2016_cog_v2.json",
       "type": "application/geo+json",
+      "item": "nlcd_2016_cog_v2",
       "datetime": "2016-01-01T00:00:00Z"
     },
     {
       "rel": "item",
       "href": "./nlcd-annual-conus/2013/nlcd_2013_cog_v2.json",
       "type": "application/geo+json",
+      "item": "nlcd_2013_cog_v2",
       "datetime": "2013-01-01T00:00:00Z"
     },
     {
       "rel": "item",
       "href": "./nlcd-annual-conus/2011/nlcd_2011_cog_v2.json",
       "type": "application/geo+json",
+      "item": "nlcd_2011_cog_v2",
       "datetime": "2011-01-01T00:00:00Z"
     },
     {
       "rel": "item",
       "href": "./nlcd-annual-conus/2008/nlcd_2008_cog_v2.json",
       "type": "application/geo+json",
+      "item": "nlcd_2008_cog_v2",
       "datetime": "2008-01-01T00:00:00Z"
     },
     {
       "rel": "item",
       "href": "./nlcd-annual-conus/2006/nlcd_2006_cog_v2.json",
       "type": "application/geo+json",
+      "item": "nlcd_2006_cog_v2",
       "datetime": "2006-01-01T00:00:00Z"
     },
     {
       "rel": "item",
       "href": "./nlcd-annual-conus/2004/nlcd_2004_cog_v2.json",
       "type": "application/geo+json",
+      "item": "nlcd_2004_cog_v2",
       "datetime": "2004-01-01T00:00:00Z"
     },
     {
       "rel": "item",
       "href": "./nlcd-annual-conus/2001/nlcd_2001_cog_v2.json",
       "type": "application/geo+json",
+      "item": "nlcd_2001_cog_v2",
       "datetime": "2001-01-01T00:00:00Z"
     },
     {
       "rel": "xyz",
-      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=greens",
+      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=nlcd",
       "type": "image/png",
       "title": "example_collection"
     },

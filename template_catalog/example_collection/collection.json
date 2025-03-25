@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "example_collection",
   "stac_version": "1.1.0",
-  "description": "./exp_desc",
+  "description": "./exp_desc.md",
   "links": [
     {
       "rel": "root",
@@ -124,8 +124,8 @@
       "EX2"
     ],
     "themes": [
-      "monthly-diff",
-      "features"
+      "features",
+      "monthly-diff"
     ],
     "satellite": [
       "Satellitename"
