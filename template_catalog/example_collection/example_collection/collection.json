@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "example_collection",
   "stac_version": "1.1.0",
-  "description": "collection/exp_desc",
+  "description": "./exp_desc",
   "links": [
     {
       "rel": "root",
@@ -66,7 +66,7 @@
     },
     {
       "rel": "xyz",
-      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1",
+      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=greens",
       "type": "image/png",
       "title": "example_collection"
     },
