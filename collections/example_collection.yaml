@@ -22,5 +22,5 @@ Agency:
 Resources:
   - EndPoint: https://rethink.gmv.com/geoserver/wms?
     Name: WMS
-    LayerId: sm:CS4_SM_N50-SolPan_LAMSv1-1
-    Styles: [sm:suitabilitymaps_style]
+    LayerId: CS4_SM_N50-SolPan_LAMSv1-1
+    # Styles: [sm:suitabilitymaps_style]
