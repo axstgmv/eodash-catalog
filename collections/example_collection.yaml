@@ -20,7 +20,9 @@ DataSource:
 Agency:
   - Example agency
 Resources:
-  - EndPoint: https://rethink.gmv.com/geoserver/wms?
-    Name: WMS
-    LayerId: CS4_SM_N50-SolPan_LAMSv1-1
+  - EndPoint: https://openveda.cloud/api/stac/
+    Type: cog
+    Name: VEDA
+    CollectionId: nlcd-annual-conus
+    Bidx: 1
     # Styles: [sm:suitabilitymaps_style]
