@@ -21,7 +21,7 @@ Agency:
   - Example agency
 Resources:
   - EndPoint: https://openveda.cloud/api/stac/
-    Type: tiles
+    Type: cog
     Name: VEDA
     CollectionId: no2-monthly-diff
-
+    Bidx: 1
