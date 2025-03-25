@@ -1,0 +1,27 @@
+Name: example_collection
+Title: Example collection
+EodashIdentifier: EX2
+Description: collection/exp_desc
+Themes:
+  - features
+  - monthly-diff
+Tags:
+  - vector
+  - feature
+  - no2
+DataSource:
+  Spaceborne:
+    Satellite:
+      - Satellitename
+    Sensor:
+      - Sensorname
+  InSitu:
+    - Other insitu data
+Agency:
+  - Example agency
+Resources:
+  - EndPoint: https://openveda.cloud/api/stac/
+    Type: tiles
+    Name: VEDA
+    CollectionId: no2-monthly-diff
+
