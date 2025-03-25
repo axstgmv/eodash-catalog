@@ -1,7 +1,7 @@
 Name: example_collection
 Title: Example collection
 EodashIdentifier: EX2
-Description: collection/exp_desc
+Description: ./exp_desc
 Themes:
   - features
   - monthly-diff
@@ -23,6 +23,7 @@ Resources:
   - EndPoint: https://openveda.cloud/api/stac/
     Type: cog
     Name: VEDA
+    ColormapName: greens
     CollectionId: nlcd-annual-conus
     Bidx: 1
     # Styles: [sm:suitabilitymaps_style]
