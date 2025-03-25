@@ -25,7 +25,8 @@
       ],
       "tags": [
         "example tag",
-        "another tag"
+        "another tag",
+        "taggy"
       ],
       "agency": [
         "Example agency"
@@ -76,7 +77,8 @@
   ],
   "tags": [
     "example tag",
-    "another tag"
+    "another tag",
+    "taggy"
   ],
   "agency": [
     "Example agency"
