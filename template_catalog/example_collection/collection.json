@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "example_collection",
   "stac_version": "1.1.0",
-  "description": "./example_collection/exp_desc.md",
+  "description": "https://axstgmv.github.io/eodash-catalog/template_catalog/example_collection/exp_desc.md",
   "links": [
     {
       "rel": "root",
