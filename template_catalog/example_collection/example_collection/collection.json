@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "example_collection",
   "stac_version": "1.1.0",
-  "description": "./exp_desc.md",
+  "description": "## no2-monthly-diff\n### first subtitle\n#### descirption dkjdw ewdkew wke\n\n### second s\n#### some mre description",
   "links": [
     {
       "rel": "root",
@@ -12,72 +12,20 @@
     },
     {
       "rel": "item",
-      "href": "./nlcd-annual-conus/2021/nlcd_2021_cog_v2.json",
+      "href": "./example_collection/2024/2024-01-01T00:00:00Z.json",
       "type": "application/geo+json",
-      "item": "nlcd_2021_cog_v2",
-      "datetime": "2021-01-01T00:00:00Z"
+      "datetime": "2024-01-01T00:00:00Z",
+      "assets": [
+        "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy.geojson"
+      ]
     },
     {
-      "rel": "item",
-      "href": "./nlcd-annual-conus/2019/nlcd_2019_cog_v2.json",
-      "type": "application/geo+json",
-      "item": "nlcd_2019_cog_v2",
-      "datetime": "2019-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./nlcd-annual-conus/2016/nlcd_2016_cog_v2.json",
-      "type": "application/geo+json",
-      "item": "nlcd_2016_cog_v2",
-      "datetime": "2016-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./nlcd-annual-conus/2013/nlcd_2013_cog_v2.json",
-      "type": "application/geo+json",
-      "item": "nlcd_2013_cog_v2",
-      "datetime": "2013-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./nlcd-annual-conus/2011/nlcd_2011_cog_v2.json",
-      "type": "application/geo+json",
-      "item": "nlcd_2011_cog_v2",
-      "datetime": "2011-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./nlcd-annual-conus/2008/nlcd_2008_cog_v2.json",
-      "type": "application/geo+json",
-      "item": "nlcd_2008_cog_v2",
-      "datetime": "2008-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./nlcd-annual-conus/2006/nlcd_2006_cog_v2.json",
-      "type": "application/geo+json",
-      "item": "nlcd_2006_cog_v2",
-      "datetime": "2006-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./nlcd-annual-conus/2004/nlcd_2004_cog_v2.json",
-      "type": "application/geo+json",
-      "item": "nlcd_2004_cog_v2",
-      "datetime": "2004-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./nlcd-annual-conus/2001/nlcd_2001_cog_v2.json",
-      "type": "application/geo+json",
-      "item": "nlcd_2001_cog_v2",
-      "datetime": "2001-01-01T00:00:00Z"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=nlcd",
-      "type": "image/png",
-      "title": "example_collection"
+      "rel": "style",
+      "href": "https://storage.googleapis.com/test_stac/vector_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "vector_data"
+      ]
     },
     {
       "rel": "parent",
@@ -87,45 +35,33 @@
     }
   ],
   "themes": [
-    "features",
-    "monthly-diff"
+    "roads",
+    "floods"
   ],
   "tags": [
     "vector",
     "feature",
-    "no2"
-  ],
-  "agency": [
-    "Example agency"
+    "geojson"
   ],
   "subcode": "EX2",
-  "sensor": [
-    "Sensorname"
-  ],
-  "satellite": [
-    "Satellitename"
-  ],
-  "insituSources": [
-    "Other insitu data"
-  ],
-  "endpointtype": "VEDA_cog",
+  "endpointtype": "GeoJSON source",
   "title": "Example collection",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -130.23282801589895,
-          21.742307778016638,
-          -63.672191850655295,
-          49.177063191389536
+          743701.64167776,
+          4401567.59730811,
+          2057451.63599902,
+          5945587.1163826
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2001-01-01T00:00:00Z",
-          "2021-01-01T00:00:00Z"
+          "2024-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z"
         ]
       ]
     }

@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2024-01-01T00:00:00Z",
+  "geometry": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                743701.64167776,
+                4401567.59730811
+              ],
+              [
+                2057451.63599902,
+                4401567.59730811
+              ],
+              [
+                2057451.63599902,
+                5945587.1163826
+              ],
+              [
+                743701.64167776,
+                5945587.1163826
+              ],
+              [
+                743701.64167776,
+                4401567.59730811
+              ]
+            ]
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  },
+  "bbox": [
+    743701.64167776,
+    4401567.59730811,
+    2057451.63599902,
+    5945587.1163826
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://storage.googleapis.com/test_stac/vector_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "vector_data"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Example collection"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Example collection"
+    }
+  ],
+  "assets": {
+    "vector_data": {
+      "href": "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy.geojson",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "example_collection"
+}

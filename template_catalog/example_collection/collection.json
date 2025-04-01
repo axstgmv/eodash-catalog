@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "example_collection",
   "stac_version": "1.1.0",
-  "description": "https://axstgmv.github.io/eodash-catalog/template_catalog/example_collection/exp_desc.md",
+  "description": "## no2-monthly-diff\n### first subtitle\n#### descirption dkjdw ewdkew wke\n\n### second s\n#### some mre description",
   "links": [
     {
       "rel": "root",
@@ -15,31 +15,19 @@
       "href": "./example_collection/collection.json",
       "type": "application/json",
       "title": "Example collection",
-      "endpointtype": "VEDA_cog",
+      "endpointtype": "GeoJSON source",
       "code": "EX2",
       "id": "example_collection",
       "themes": [
-        "features",
-        "monthly-diff"
+        "roads",
+        "floods"
       ],
       "tags": [
         "vector",
         "feature",
-        "no2"
+        "geojson"
       ],
-      "agency": [
-        "Example agency"
-      ],
-      "subcode": "EX2",
-      "sensor": [
-        "Sensorname"
-      ],
-      "satellite": [
-        "Satellitename"
-      ],
-      "insituSources": [
-        "Other insitu data"
-      ]
+      "subcode": "EX2"
     },
     {
       "rel": "xyz",
@@ -70,50 +58,38 @@
     }
   ],
   "themes": [
-    "features",
-    "monthly-diff"
+    "roads",
+    "floods"
   ],
   "tags": [
     "vector",
     "feature",
-    "no2"
-  ],
-  "agency": [
-    "Example agency"
+    "geojson"
   ],
   "subcode": "EX2",
-  "sensor": [
-    "Sensorname"
-  ],
-  "satellite": [
-    "Satellitename"
-  ],
-  "insituSources": [
-    "Other insitu data"
-  ],
   "title": "Example collection",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -130.23282801589895,
-          21.742307778016638,
-          -63.672191850655295,
-          49.177063191389536
+          743701.64167776,
+          4401567.59730811,
+          2057451.63599902,
+          5945587.1163826
         ],
         [
-          -130.23282801589895,
-          21.742307778016638,
-          -63.672191850655295,
-          49.177063191389536
+          743701.64167776,
+          4401567.59730811,
+          2057451.63599902,
+          5945587.1163826
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2001-01-01T00:00:00Z",
-          "2021-01-01T00:00:00Z"
+          "2024-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z"
         ]
       ]
     }
@@ -124,14 +100,8 @@
       "EX2"
     ],
     "themes": [
-      "features",
-      "monthly-diff"
-    ],
-    "satellite": [
-      "Satellitename"
-    ],
-    "sensor": [
-      "Sensorname"
+      "floods",
+      "roads"
     ]
   }
 }

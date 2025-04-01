@@ -49,26 +49,14 @@
       "code": "EX2",
       "id": "example_collection",
       "themes": [
-        "features",
-        "monthly-diff"
+        "roads",
+        "floods"
       ],
       "subcode": "EX2",
-      "satellite": [
-        "Satellitename"
-      ],
-      "sensor": [
-        "Sensorname"
-      ],
       "tags": [
         "vector",
         "feature",
-        "no2"
-      ],
-      "agency": [
-        "Example agency"
-      ],
-      "insituSources": [
-        "Other insitu data"
+        "geojson"
       ]
     },
     {
