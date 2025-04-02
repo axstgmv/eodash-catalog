@@ -16,5 +16,7 @@ Resources:
     TimeEntries:
       - Time: "2019"
         Assets:
-          - Identifier: vector_data
+          - Identifier: random_polygons
             File: https://storage.googleapis.com/test_stac/Polygons.geojson
+          - Identifier: ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy
+            File: https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy.geojson
