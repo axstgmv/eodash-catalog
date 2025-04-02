@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "example_collection",
+  "id": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
   "stac_version": "1.1.0",
   "description": "## no2-monthly-diff\n### first subtitle\n#### descirption dkjdw ewdkew wke\n\n### second s\n#### some mre description",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "item",
-      "href": "./example_collection/2019/2019-01-01T00:00:00Z.json",
+      "href": "./ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy/2019/2019-01-01T00:00:00Z.json",
       "type": "application/geo+json",
       "datetime": "2019-01-01T00:00:00Z",
       "assets": [
-        "https://storage.googleapis.com/test_stac/Polygons.geojson",
+        "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_50_Railways_Buf100m_Italy.geojson",
         "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy.geojson"
       ]
     },
@@ -25,7 +25,7 @@
       "href": "https://storage.googleapis.com/test_stac/vector_style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "random_polygons",
+        "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_50_Railways_Buf100m_Italy",
         "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy"
       ]
     },
@@ -33,7 +33,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Example collection"
+      "title": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy"
     }
   ],
   "themes": [
@@ -45,17 +45,17 @@
     "feature",
     "geojson"
   ],
-  "subcode": "EX2",
+  "subcode": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
   "endpointtype": "GeoJSON source",
-  "title": "Example collection",
+  "title": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          9.27,
-          46.2,
-          17.3,
-          49.2
+          3.908,
+          46.929,
+          22.235,
+          36.829
         ]
       ]
     },

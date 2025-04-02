@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "example_collection",
+  "id": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
   "stac_version": "1.1.0",
   "description": "## no2-monthly-diff\n### first subtitle\n#### descirption dkjdw ewdkew wke\n\n### second s\n#### some mre description",
   "links": [
@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./example_collection/collection.json",
+      "href": "./ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy/collection.json",
       "type": "application/json",
-      "title": "Example collection",
+      "title": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
       "endpointtype": "GeoJSON source",
-      "code": "EX2",
-      "id": "example_collection",
+      "code": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
+      "id": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
       "themes": [
         "roads",
         "floods"
@@ -27,7 +27,7 @@
         "feature",
         "geojson"
       ],
-      "subcode": "EX2"
+      "subcode": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy"
     },
     {
       "rel": "xyz",
@@ -38,6 +38,16 @@
         "baselayer"
       ],
       "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tile.openstreetmap.org/{zoom}/{x}/{y}.png",
+      "type": "image/png",
+      "title": "OpenStreemMap",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "osm"
     },
     {
       "rel": "xyz",
@@ -66,22 +76,22 @@
     "feature",
     "geojson"
   ],
-  "subcode": "EX2",
-  "title": "Example collection",
+  "subcode": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
+  "title": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          9.27,
-          46.2,
-          17.3,
-          49.2
+          3.908,
+          46.929,
+          22.235,
+          36.829
         ],
         [
-          9.27,
-          46.2,
-          17.3,
-          49.2
+          3.908,
+          46.929,
+          22.235,
+          36.829
         ]
       ]
     },
@@ -97,7 +107,7 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "EX2"
+      "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy"
     ],
     "themes": [
       "roads",

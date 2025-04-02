@@ -43,16 +43,16 @@
     },
     {
       "rel": "child",
-      "href": "./example_collection/collection.json",
+      "href": "./ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy/collection.json",
       "type": "application/json",
-      "title": "Example collection",
-      "code": "EX2",
-      "id": "example_collection",
+      "title": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
+      "code": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
+      "id": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
       "themes": [
         "roads",
         "floods"
       ],
-      "subcode": "EX2",
+      "subcode": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
       "tags": [
         "vector",
         "feature",

@@ -13,24 +13,24 @@
           "coordinates": [
             [
               [
-                9.27,
-                46.2
+                3.908,
+                46.929
               ],
               [
-                17.3,
-                46.2
+                22.235,
+                46.929
               ],
               [
-                17.3,
-                49.2
+                22.235,
+                36.829
               ],
               [
-                9.27,
-                49.2
+                3.908,
+                36.829
               ],
               [
-                9.27,
-                46.2
+                3.908,
+                46.929
               ]
             ]
           ]
@@ -40,10 +40,10 @@
     ]
   },
   "bbox": [
-    9.27,
-    46.2,
-    17.3,
-    49.2
+    3.908,
+    46.929,
+    22.235,
+    36.829
   ],
   "properties": {
     "datetime": "2019-01-01T00:00:00Z"
@@ -54,7 +54,7 @@
       "href": "https://storage.googleapis.com/test_stac/vector_style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "random_polygons",
+        "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_50_Railways_Buf100m_Italy",
         "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy"
       ]
     },
@@ -68,18 +68,18 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Example collection"
+      "title": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Example collection"
+      "title": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy"
     }
   ],
   "assets": {
-    "random_polygons": {
-      "href": "https://storage.googleapis.com/test_stac/Polygons.geojson",
+    "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_50_Railways_Buf100m_Italy": {
+      "href": "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_50_Railways_Buf100m_Italy.geojson",
       "type": "application/geo+json",
       "roles": [
         "data"
@@ -93,5 +93,5 @@
       ]
     }
   },
-  "collection": "example_collection"
+  "collection": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy"
 }
