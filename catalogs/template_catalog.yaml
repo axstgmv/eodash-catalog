@@ -4,7 +4,7 @@ description: "This catalog definition is part of the eodash catalog template, pl
 endpoint: "https://axstgmv.github.io/eodash-catalog/template_catalog/"
 default_base_layers: "layers/baselayers"
 default_overlay_layers: "layers/overlays"
-assets_endpoint: "https://raw.githubusercontent.com/organization/assets-repo/main/"
+assets_endpoint: "https://storage.googleapis.com/test_stac/"
 collections:
   - my_collection
   - example_collection
