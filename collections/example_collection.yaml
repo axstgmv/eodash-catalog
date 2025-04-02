@@ -14,7 +14,7 @@ Resources:
     Style: https://storage.googleapis.com/test_stac/vector_style.json
     Bbox: [9.27, 46.2, 17.3, 49.2]
     TimeEntries:
-      - Time: "2024"
+      - Time: "2019"
         Assets:
           - Identifier: vector_data
-            File: https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy.geojson
+            File: https://storage.googleapis.com/test_stac/Polygons.geojson
