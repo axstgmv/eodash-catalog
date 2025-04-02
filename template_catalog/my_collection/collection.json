@@ -126,9 +126,9 @@
       "EX1"
     ],
     "themes": [
-      "another theme",
       "theme 3",
-      "example"
+      "example",
+      "another theme"
     ],
     "satellite": [
       "Satellitename"

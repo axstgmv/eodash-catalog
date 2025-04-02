@@ -16,7 +16,8 @@
       "type": "application/geo+json",
       "datetime": "2019-01-01T00:00:00Z",
       "assets": [
-        "https://storage.googleapis.com/test_stac/Polygons.geojson"
+        "https://storage.googleapis.com/test_stac/Polygons.geojson",
+        "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy.geojson"
       ]
     },
     {
@@ -24,7 +25,8 @@
       "href": "https://storage.googleapis.com/test_stac/vector_style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "vector_data"
+        "random_polygons",
+        "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy"
       ]
     },
     {
