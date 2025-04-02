@@ -35,17 +35,19 @@
       "type": "image/jpeg",
       "title": "EOxCloudless 2023",
       "roles": [
-        "baselayer"
+        "baselayer",
+        "invisible"
       ],
       "id": "cloudless-2023"
     },
     {
       "rel": "xyz",
-      "href": "https://tile.openstreetmap.org/{zoom}/{x}/{y}.png",
+      "href": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
       "type": "image/png",
       "title": "OpenStreemMap",
       "roles": [
-        "baselayer"
+        "baselayer",
+        "visible"
       ],
       "id": "osm"
     },
