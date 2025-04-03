@@ -12,51 +12,15 @@
     },
     {
       "rel": "child",
-      "href": "./my_collection/collection.json",
+      "href": "./EOtransportation intersection with railway lines/collection.json",
       "type": "application/json",
-      "title": "My collection",
-      "code": "EX1",
-      "id": "my_collection",
-      "themes": [
-        "example",
-        "another theme",
-        "theme 3"
-      ],
-      "subcode": "EX1",
-      "satellite": [
-        "Satellitename"
-      ],
-      "sensor": [
-        "Sensorname"
-      ],
-      "tags": [
-        "example tag",
-        "another tag",
-        "taggy"
-      ],
-      "agency": [
-        "Example agency"
-      ],
-      "insituSources": [
-        "Other insitu data"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy/collection.json",
-      "type": "application/json",
-      "title": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
-      "code": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
-      "id": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
+      "title": "EOtransportation intersection with railway lines",
+      "code": "eotransportation_intersection _with_railway",
+      "id": "EOtransportation intersection with railway lines",
+      "subcode": "eotransportation_intersection _with_railway",
       "themes": [
         "roads",
         "floods"
-      ],
-      "subcode": "ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy",
-      "tags": [
-        "vector",
-        "feature",
-        "geojson"
       ]
     },
     {
