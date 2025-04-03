@@ -1,6 +1,6 @@
-Name: ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy
-Title: ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy
-EodashIdentifier: ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy
+Name: Intersections_Return_periods_max_daily_rainfall_1950-2019_classess
+Title: Intersections_Return_periods_max_daily_rainfall_1950-2019_classess
+EodashIdentifier: Intersections_Return_periods_max_daily_rainfall_1950-2019_classess
 Description: https://storage.googleapis.com/test_stac/exp_desc.md
 Themes:
   - roads
@@ -9,15 +9,6 @@ Tags:
   - vector
   - feature
   - geojson
-# Subcollections:
-#   - Identifier: ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_50_Railways_Buf100m_Italy
-#     Collection: ExtremePrecipitationRisk_period_50
-#   - Identifier: ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy
-#     Collection: ExtremePrecipitationRisk_period_100
-#     Country: IT
-#     Name: ExtremePrecipitationRisk_max-1day_return_period_1950-2019_Railways_Buf100m_Italy
-#     Point: [12.196, 43.592]
-#     Bbox: [3.908, 46.929, 22.235, 36.829]
 
 Resources:
   - Name: GeoJSON source
@@ -26,8 +17,6 @@ Resources:
     TimeEntries:
       - Time: "2019"
         Assets:
-          # - Identifier: random_polygons
-          #   File: https://storage.googleapis.com/test_stac/Polygons.geojson
           - Identifier: ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_50_Railways_Buf100m_Italy
             File: https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_50_Railways_Buf100m_Italy.geojson
           - Identifier: ExtremePrecipitationRisk_max-1day_return_period_1950-2019_classes_return_period_100_Railways_Buf100m_Italy

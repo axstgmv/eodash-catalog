@@ -1,0 +1,7 @@
+Name: EOtransportation intersection with railway lines
+Title: EOtransportation intersection with railway lines
+EodashIdentifier: eotransportation_intersection _with_railway
+Description: https://storage.googleapis.com/test_stac/exp_desc.md
+Collections:
+  - Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019
+  - Intersections_Return_periods_max_daily_rainfall_1950-2019_classess
