@@ -1,0 +1,23 @@
+Name: JRC
+Title: JRC
+EodashIdentifier: JRC
+Description: https://storage.googleapis.com/test_stac/exp_desc.md
+Themes:
+  - railways
+  - floods
+  - Europe
+Tags:
+  - original
+  - whole reagion
+
+Resources:
+  - Name: GeoJSON source
+    Style: https://storage.googleapis.com/test_stac/raster_style.json
+    Bbox: [-0.644, 46.863,-0.755, 46.976]
+    TimeEntries:
+      - Time: "2019"
+        Assets:
+          - Identifier: Europe_RP10_filled_depth
+            File: https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/Europe_RP10_filled_depth.tif
+          - Identifier: Europe_RP50_filled_depth
+            File: https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/Europe_RP50_filled_depth.tif
