@@ -112,9 +112,9 @@
       "JRC"
     ],
     "themes": [
-      "Europe",
       "floods",
-      "railways"
+      "railways",
+      "Europe"
     ]
   }
 }
