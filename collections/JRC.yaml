@@ -13,7 +13,7 @@ Tags:
 Resources:
   - Name: GeoJSON source
     Style: https://storage.googleapis.com/test_stac/raster_style.json
-    Bbox: [-0.644, 46.863,-0.755, 46.976]
+    Bbox: [-49.22, 71.22, 92.51, 26.42]
     TimeEntries:
       - Time: "2019"
         Assets:
