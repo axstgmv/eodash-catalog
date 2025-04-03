@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2019-01-01T00:00:00Z",
+  "geometry": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.644,
+                46.863
+              ],
+              [
+                -0.755,
+                46.863
+              ],
+              [
+                -0.755,
+                46.976
+              ],
+              [
+                -0.644,
+                46.976
+              ],
+              [
+                -0.644,
+                46.863
+              ]
+            ]
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  },
+  "bbox": [
+    -0.644,
+    46.863,
+    -0.755,
+    46.976
+  ],
+  "properties": {
+    "datetime": "2019-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://storage.googleapis.com/test_stac/raster_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Europe_RP10_filled_depth",
+        "Europe_RP50_filled_depth"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "JRC"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "JRC"
+    }
+  ],
+  "assets": {
+    "Europe_RP10_filled_depth": {
+      "href": "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/Europe_RP10_filled_depth.tif",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    },
+    "Europe_RP50_filled_depth": {
+      "href": "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/Europe_RP50_filled_depth.tif",
+      "type": "application/geo+json",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "JRC"
+}

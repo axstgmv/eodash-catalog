@@ -12,15 +12,56 @@
     },
     {
       "rel": "child",
-      "href": "./EOtransportation intersection with railway lines/collection.json",
+      "href": "./Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019/collection.json",
       "type": "application/json",
-      "title": "EOtransportation intersection with railway lines",
-      "code": "eotransportation_intersection _with_railway",
-      "id": "EOtransportation intersection with railway lines",
-      "subcode": "eotransportation_intersection _with_railway",
+      "title": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+      "code": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+      "id": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
       "themes": [
         "roads",
         "floods"
+      ],
+      "subcode": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
+      "tags": [
+        "vector",
+        "feature",
+        "geojson"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Intersections_Return_periods_max_daily_rainfall_1950-2019_classess/collection.json",
+      "type": "application/json",
+      "title": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
+      "code": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
+      "id": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
+      "themes": [
+        "roads",
+        "floods"
+      ],
+      "subcode": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
+      "tags": [
+        "vector",
+        "feature",
+        "geojson"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./JRC/collection.json",
+      "type": "application/json",
+      "title": "JRC",
+      "code": "JRC",
+      "id": "JRC",
+      "themes": [
+        "railways",
+        "floods",
+        "Europe"
+      ],
+      "subcode": "JRC",
+      "tags": [
+        "original",
+        "whole reagion"
       ]
     },
     {

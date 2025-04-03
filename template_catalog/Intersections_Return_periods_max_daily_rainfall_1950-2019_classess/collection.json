@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "EOtransportation intersection with railway lines",
+  "id": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
   "stac_version": "1.1.0",
   "description": "## no2-monthly-diff\n### first subtitle\n#### descirption dkjdw ewdkew wke\n\n### second s\n#### some mre description",
   "links": [
@@ -9,25 +9,6 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Template Catalog"
-    },
-    {
-      "rel": "child",
-      "href": "./Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019/collection.json",
-      "type": "application/json",
-      "title": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
-      "endpointtype": "GeoJSON source",
-      "code": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
-      "id": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
-      "themes": [
-        "roads",
-        "floods"
-      ],
-      "tags": [
-        "vector",
-        "feature",
-        "geojson"
-      ],
-      "subcode": "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019"
     },
     {
       "rel": "child",
@@ -88,28 +69,31 @@
       "title": "Template Catalog"
     }
   ],
-  "subcode": "eotransportation_intersection _with_railway",
-  "title": "EOtransportation intersection with railway lines",
+  "themes": [
+    "roads",
+    "floods"
+  ],
+  "tags": [
+    "vector",
+    "feature",
+    "geojson"
+  ],
+  "subcode": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
+  "title": "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          3.908,
-          46.929,
-          22.235,
-          36.829
+          -0.644,
+          46.863,
+          -0.755,
+          46.976
         ],
         [
-          3.908,
-          46.929,
-          22.235,
-          36.829
-        ],
-        [
-          3.908,
-          46.929,
-          22.235,
-          36.829
+          -0.644,
+          46.863,
+          -0.755,
+          46.976
         ]
       ]
     },
@@ -125,7 +109,6 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "Intersections_Percentile_of_number_of_days_rainfaal_gt_20mm_1950-2019",
       "Intersections_Return_periods_max_daily_rainfall_1950-2019_classess"
     ],
     "themes": [

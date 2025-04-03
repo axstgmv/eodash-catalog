@@ -1,0 +1,72 @@
+{
+  "type": "Collection",
+  "id": "JRC",
+  "stac_version": "1.1.0",
+  "description": "## no2-monthly-diff\n### first subtitle\n#### descirption dkjdw ewdkew wke\n\n### second s\n#### some mre description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Template Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./JRC/2019/2019-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-01T00:00:00Z",
+      "assets": [
+        "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/Europe_RP10_filled_depth.tif",
+        "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/Europe_RP50_filled_depth.tif"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://storage.googleapis.com/test_stac/raster_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Europe_RP10_filled_depth",
+        "Europe_RP50_filled_depth"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "JRC"
+    }
+  ],
+  "themes": [
+    "railways",
+    "floods",
+    "Europe"
+  ],
+  "tags": [
+    "original",
+    "whole reagion"
+  ],
+  "subcode": "JRC",
+  "endpointtype": "GeoJSON source",
+  "title": "JRC",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -0.644,
+          46.863,
+          -0.755,
+          46.976
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T00:00:00Z",
+          "2019-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
