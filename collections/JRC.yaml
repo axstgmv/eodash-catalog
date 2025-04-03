@@ -18,6 +18,6 @@ Resources:
       - Time: "2019"
         Assets:
           - Identifier: Europe_RP10_filled_depth
-            File: https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/Europe_RP10_filled_depth.tif
+            File: https://storage.googleapis.com/test_stac/Europe_RP10_filled_depth.tif
           - Identifier: Europe_RP50_filled_depth
             File: https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/Europe_RP50_filled_depth.tif
