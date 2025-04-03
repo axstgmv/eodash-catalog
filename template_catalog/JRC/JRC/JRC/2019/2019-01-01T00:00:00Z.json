@@ -79,7 +79,7 @@
   ],
   "assets": {
     "Europe_RP10_filled_depth": {
-      "href": "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/Europe_RP10_filled_depth.tif",
+      "href": "https://storage.googleapis.com/test_stac/Europe_RP10_filled_depth.tif",
       "type": "application/geo+json",
       "roles": [
         "data"
