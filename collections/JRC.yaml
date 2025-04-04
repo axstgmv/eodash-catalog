@@ -17,5 +17,5 @@ Resources:
     TimeEntries:
       - Time: "2019"
         Assets:
-          - Identifier: ndvi
-            File: https://storage.googleapis.com/test_stac/NDVI_VAL_JUNE19_AOI_cog.tif
+          - Identifier: Europe_RP10_filled_depth
+            File: https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/Europe_RP10_filled_depth.tif
