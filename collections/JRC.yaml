@@ -11,7 +11,7 @@ Tags:
   - whole reagion
 
 Resources:
-  - Name: GeoJSON source
+  - Name: COG source
     Style: https://storage.googleapis.com/test_stac/raster_style.json
     Bbox: [-4.86903, 41.70079,-4.61696, 41.56828]
     TimeEntries:
