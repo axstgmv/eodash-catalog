@@ -15,7 +15,7 @@
       "href": "./JRC/collection.json",
       "type": "application/json",
       "title": "JRC",
-      "endpointtype": "GeoJSON source",
+      "endpointtype": "COG source",
       "code": "JRC",
       "id": "JRC",
       "themes": [
@@ -112,9 +112,9 @@
       "JRC"
     ],
     "themes": [
+      "railways",
       "floods",
-      "Europe",
-      "railways"
+      "Europe"
     ]
   }
 }

@@ -22,7 +22,7 @@
     {
       "rel": "style",
       "href": "https://storage.googleapis.com/test_stac/raster_style.json",
-      "type": "text/vector-styles",
+      "type": "text/cog-styles",
       "asset:keys": [
         "ndvi"
       ]
@@ -44,7 +44,7 @@
     "whole reagion"
   ],
   "subcode": "JRC",
-  "endpointtype": "GeoJSON source",
+  "endpointtype": "COG source",
   "title": "JRC",
   "extent": {
     "spatial": {

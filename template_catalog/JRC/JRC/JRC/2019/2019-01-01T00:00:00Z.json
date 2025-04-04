@@ -52,7 +52,7 @@
     {
       "rel": "style",
       "href": "https://storage.googleapis.com/test_stac/raster_style.json",
-      "type": "text/vector-styles",
+      "type": "text/cog-styles",
       "asset:keys": [
         "ndvi"
       ]
@@ -79,7 +79,7 @@
   "assets": {
     "ndvi": {
       "href": "https://storage.googleapis.com/test_stac/NDVI_VAL_JUNE19_AOI_cog.tif",
-      "type": "application/geo+json",
+      "type": "image/tiff",
       "roles": [
         "data"
       ]
