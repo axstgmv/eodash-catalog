@@ -16,7 +16,7 @@
       "type": "application/geo+json",
       "datetime": "2019-01-01T00:00:00Z",
       "assets": [
-        "https://storage.googleapis.com/test_stac/NDVI_VAL_JUNE19_AOI_cog.tif"
+        "https://storage.googleapis.com/eo_best_practices_2023/EOtransportation/Europe_RP10_filled_depth.tif"
       ]
     },
     {
@@ -24,7 +24,7 @@
       "href": "https://storage.googleapis.com/test_stac/raster_style.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "ndvi"
+        "Europe_RP10_filled_depth"
       ]
     },
     {
